@@ -10,10 +10,7 @@ export default function Home() {
 
   return (
     <>
-    <section
-      className="hero"
-      style={{ backgroundImage: `url(${heroBg})` }}
-    >
+    <section className="hero">
       <div className="hero-content">
         <div className="hero-text">
           <h1>DRIVE THE FUTURE</h1>
@@ -151,4 +148,5 @@ export default function Home() {
     </>
 
   );
+
 }
