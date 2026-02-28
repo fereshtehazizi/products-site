@@ -62,7 +62,17 @@ body {
   animation: slideFromLeft 1.2s ease forwards;
 }
 
-.hero,
+.hero {
+  height: 100vh;
+  background: url("/images/hero-bg9.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 0 8%;
+  overflow: hidden;
+}
+
 .product-details {
   height: 100vh;
   background-size: cover;
@@ -270,7 +280,7 @@ h1 {
   animation: slideFromLeft 1.2s ease forwards;
 }
 
-.details-bane{
+.details-bane {
   display: flex;
   justify-content: space-between;
   animation: slideFromLeft 1.2s ease forwards;
@@ -355,8 +365,8 @@ button,
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
-.header h2{
-   animation: slideFromLeft 1.2s ease forwards;
+.header h2 {
+  animation: slideFromLeft 1.2s ease forwards;
 }
 
 .gallery-card::before {
@@ -425,7 +435,7 @@ button,
 
 /* not found center */
 
-.center{
+.center {
   min-height: 80vh;
   display: flex;
   justify-content: center;
@@ -435,8 +445,40 @@ button,
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
+  .hero {
+    height: 100vh;
+    background: url("/images/sm-hero-bg9.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 8%;
+    overflow: hidden;
+  }
+
   .product-details {
     flex-direction: column;
     gap: 30px;
+  }
+
+  .details-content {
+    max-width: 100%;
+  }
+
+  .alt-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .alt-content {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 20px;
+  }
+
+  .alt-image {
+    margin-bottom: 20px;
   }
 }
