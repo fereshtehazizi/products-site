@@ -5,7 +5,7 @@ export const products = [
         price: "455000",
         category: "Ultra-Luxury Sedan",
         image: "/images/roll.jpg",
-        bg: "/video/Pro-rolls-r.mp4",
+        bg: "https://foldr.space/d/Pro-rolls-r.mp4",
         rating: "4.3",
         specs: "563 hp • Twin-Turbo V12 • 0–60 mph in 5.1s • Handcrafted Luxury",
         description:
@@ -18,7 +18,7 @@ export const products = [
         price: "576000",
         category: "Limited-Edition Supercar",
         image: "/images/lamb.jpg",
-        bg: "/video/Pro-black.mp4",
+        bg: "https://foldr.space/d/Pro-black.mp4",
         rating: "5",
         specs: "769 hp • Naturally Aspirated V12 • 0–60 mph in 2.8s • AWD Performance",
         description:
@@ -31,7 +31,7 @@ export const products = [
         price: "17499",
         category: "High-Performance Superbike",
         image: "/images/yamaha.jpg",
-        bg: "/video/Pro-r6.mp4",
+        bg: "https://foldr.space/d/Pro-r6.mp4",
         rating: "4",
         specs: "998cc Engine • 200 hp • Quick Shifter • MotoGP Technology",
         description:
@@ -44,7 +44,7 @@ export const products = [
         price: "3600000",
         category: "Hypercar",
         image: "/images/BUGATTIchiron.jpg",
-        bg: "/video/Pro-bugattt.mp4",
+        bg: "https://foldr.space/d/Pro-bugattt.mp4",
         rating: "4.9",
         specs: "1600 hp • Quad-Turbo W16 • 0–60 mph in 2.4s • 300+ mph Top Speed",
         description:
@@ -57,7 +57,7 @@ export const products = [
         price: "2498",
         category: "Professional Mirrorless Camera",
         image: "/images/sonyii.jpg",
-        bg: "/video/Pro-sony.mp4",
+        bg: "https://foldr.space/d/Pro-sony.mp4",
         rating: "3.8",
         specs: "33MP Full-Frame • 4K 60fps Video • Real-Time Autofocus • Hybrid Creator Camera",
         description:
@@ -70,7 +70,7 @@ export const products = [
         price: "39895",
         category: "Premium Off-Road SUV",
         image: "/images/jeep.jpg",
-        bg: "/video/Pro-jeep.mp4",
+        bg: "https://foldr.space/d/Pro-jeep.mp4",
         rating: "4.6",
         specs: "285 hp • 3.6L V6 • 4×4 Capability • Off-Road Suspension",
         description:
@@ -83,7 +83,7 @@ export const products = [
         price: "499",
         category: "Next-Generation Gaming Console",
         image: "/images/ps5555.jpg",
-        bg: "/video/Pro-ps5.mp4",
+        bg: "https://foldr.space/d/Pro-ps5.mp4",
         rating: "5",
         specs: "Ultra-Fast SSD • Ray Tracing • 4K Gaming • DualSense Controller",
         description:
@@ -96,7 +96,7 @@ export const products = [
         price: "549",
         category: "Premium Over-Ear Headphones",
         image: "/images/head.jpg",
-        bg: "/video/pro-head.mp4",
+        bg: "https://foldr.space/d/pro-head.mp4",
         rating: "4.9",
         specs: "Active Noise Cancellation • Spatial Audio • 20h Battery • Apple H1 Chips",
         description:
@@ -112,7 +112,7 @@ export const products = [
         description:"The Harley-Davidson V-Rod is a performance-focused power cruiser combining aggressive styling with modern engineering. Powered by the liquid-cooled Revolution V-Twin engine developed with Porsche, it delivers strong acceleration and high-RPM performance while maintaining Harley-Davidson’s iconic presence.",
         specs: "122 hp • 3.6s 0–100 km/h • Revolution V-Twin Engine",
         image: "/images/motoo.jpg",
-        bg: "/video/Pro-namless.mp4",
+        bg: "https://foldr.space/d/Pro-namless.mp4",
     },
 
     {
@@ -121,7 +121,7 @@ export const products = [
     price: "15000",
     category: "Middleweight Sport Motorcycle",
     image: "/images/Aprilia.jpg",
-    bg: "/video/Pro-prilla.mp4",
+    bg: "https://foldr.space/d/Pro-prilla.mp4",
     rating: "3.8",
     specs: "100 hp • 659cc Parallel-Twin • 0–60 mph in 3.5s • 149 mph Top Speed",
     description:
