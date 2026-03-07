@@ -126,5 +126,19 @@ export const products = [
     specs: "100 hp • 659cc Parallel-Twin • 0–60 mph in 3.5s • 149 mph Top Speed",
     description:
         "The Aprilia RS 660 is a lightweight, race-inspired sport motorcycle that perfectly balances everyday usability with track-focused performance. Powered by a 659cc parallel-twin engine delivering thrilling acceleration and precise handling, it features advanced rider electronics, aerodynamic styling, and a premium aluminum chassis derived from Aprilia’s racing heritage.",
+    },
+
+    {
+        id: "11",
+        name: "Ducati Panigale V4",
+        price: "28000",
+        category: "Sport Bike",
+        image: "/images/ducati.jpg",
+        bg: "https://foldr.space/d/Pro-ducati.mp4",
+        rating: "10",
+        specs: "1103cc V4 Engine • 214 HP Power • Top Speed ~299 km/h",
+        description:
+            "The Ducati Panigale V4 is a high-performance Italian superbike inspired by MotoGP technology. It features a powerful 1103cc Desmosedici Stradale V4 engine delivering incredible acceleration, advanced electronics, and aerodynamic winglets for maximum stability. Designed for both track performance and aggressive road riding, the Panigale V4 is one of the most iconic superbikes in the world."
     }
 ];
+
