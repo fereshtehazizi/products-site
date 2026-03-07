@@ -20,7 +20,7 @@ export default function ProductDetails() {
 
   return (
     <section className="product-details">
-      {product.bg && ( <video autoPlay muted loop playsInline className="details-bg-video" src={product.bg} /> )}
+      {product.bg && ( <video autoPlay loop playsInline className="details-bg-video" src={product.bg} /> )}
       <div className="details-content text-start">
         <h1 className="details-title">{product.name}</h1>
         <p className="details-price text-1xl text-bold">${Number(product.price).toLocaleString()}</p>
@@ -46,3 +46,4 @@ export default function ProductDetails() {
     </section>
   );
 }
+
